@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <title>User-SignUp</title>
+
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+        <meta name="viewport" content="width=device-width">
+
+    </head>
+
+    <body bgcolor="grey">
+
+        <form action="processdata.jsp">
+
+            <center>
+
+                <h1>check valid or invalid email</h1>
+
+                <table border="2" bgcolor="blue" style="color:red">
+
+                    <tr>
+
+                        <td>
+
+                            <b>User Name:</b>
+
+                        </td>
+
+                        <td>
+
+                            <input type="text" name="uname">
+
+                        </td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>
+
+                            <b>Email-ID:</b>
+
+                        </td>
+
+                        <td>
+
+                            <input type="email" name="uemail"
+
+                        </td>
+
+                    </tr>
+
+                                        <tr>
+
+                        <td>
+
+                            <input type="submit" value="SignUp">
+
+                        </td>
+
+                        <td>
+
+                            <input type="reset" value="Reset">
+
+                        </td>
+
+                    </tr>
+
+                </table>
+
+        </form>
+
+    </body>
+
+</html>
